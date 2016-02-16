@@ -105,8 +105,14 @@ header{
   color: #ffffff;
   transition: 0.5s;
 }
-.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus{
-  background-color: #ffffff;
+.navbar-default .navbar-nav .open .dropdown-menu > li > a{
+  color: #9d9d9d;
+  transition: 0.5s;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover{
+  color: #ffffff;
+  transition: 0.5s;
+  background-color: #222222;
 }
 
 /********** CAROUSSEL ************/
@@ -181,12 +187,9 @@ hr{
   display: inline-block;
  /* border-left: 1px solid #101010; */
   padding: 15px 15px;
-}
-
-.footer li:last-child{
-  float: right;
   color: #9d9d9d;
 }
+
 
 .footer a{
   padding: 10px 15px;
