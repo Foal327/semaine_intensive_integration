@@ -329,7 +329,7 @@ if (typeof jQuery === 'undefined') {
   Carousel.TRANSITION_DURATION = 1000
 
   Carousel.DEFAULTS = {
-    interval: 3000,
+    interval: 4000,
     pause: 'hover',
     wrap: true,
     keyboard: true
@@ -2361,3 +2361,14 @@ if (typeof jQuery === 'undefined') {
   })
 
 }(jQuery);
+
+
+	$(document).ready(function() {
+		$('.js-scrollTo').on('click', function() { 
+			var page = $(this).attr('href');
+			var speed = 850;
+			$('html, body').animate( { scrollTop: $(page).offset().top }, speed ); 
+			return false;
+		});
+	});
+
