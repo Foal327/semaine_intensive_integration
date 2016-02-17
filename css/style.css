@@ -3,19 +3,87 @@ v2.0 | 20110126
 License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -23,151 +91,192 @@ time, mark, audio, video {
   font: inherit;
   vertical-align: baseline;
 }
-.left{
+
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.left {
   float: left;
 }
 
-.right{
+.right {
   float: right;
 }
 
-.clearBoth{
+.clearBoth {
   clear: both;
 }
 
+
 /************ HEADER ************/
-header{
-  background-color: #9f9f9f;
+
+header {
+  background-color: white;
   height: 100px;
   width: 100%;
 }
-.logo{
-  width: 60px;
-  height: 60px;
-  margin-top: 25px;
-  margin-left: 25px;
+
+#imagelogo {
+  width: 145%;
 }
 
-.miniMenu{
+.logo {
+  width: 60px;
+  height: 60px;
+  margin-top: 5px;
+  margin-left: 30px;
+}
+
+.miniMenu {
   margin-top: 25px;
   margin-right: 25px;
 }
 
 .miniMenu li {
   display: inline;
-  margin-left: 15px;
+  margin-left: 5px;
 }
 
-.miniMenu li a{
+.miniMenu li a {
+  padding-left: 30px;
   text-decoration: none;
   transition: 0.5s;
   color: #080808;
   font-size: 20px;
 }
 
-.miniMenu li a:hover{
+.miniMenu li a:hover {
   text-decoration: none;
   transition: 0.5s;
   color: #E3141E;
 }
 
+
 /************ NAVBAR ************/
 
-.navBar{
+.navBar {
   margin-bottom: 0;
 }
 
-.btn{
-  padding:6px 3px;
+.btn {
+  padding: 6px 3px;
 }
 
-.navbar-form{
+.navbar-form {
   padding: 0px 2px;
 }
 
-.navbar-default{
-  background-color: #222;
+.navbar-default {
+  background-color: #ecf0f1;
 }
 
-.navbar-default .navbar-nav > li > a{
+.navbar-default .navbar-nav > li > a {
+  color: #9d9d9d;
+  transition: 0.5s;
+  margin-left: 300px;
+  padding-left: 65px;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: #0F5FD2;
+  transition: 0.5s;
+}
+
+.navbar-default .navbar-brand {
   color: #9d9d9d;
   transition: 0.5s;
 }
-.navbar-default .navbar-nav > li > a:hover{
-  color: #ffffff;
+
+.navbar-default .navbar-brand:hover {
+  color: #0F5FD2;
   transition: 0.5s;
 }
-.navbar-default .navbar-brand{
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
   color: #9d9d9d;
+  margin-left: 300px;
   transition: 0.5s;
 }
-.navbar-default .navbar-brand:hover{
-  color: #ffffff;
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+  color: #0F5FD2;
   transition: 0.5s;
+  background-color: #ecf0f1;
 }
-.navbar-default .navbar-nav .open .dropdown-menu > li > a{
-  color: #9d9d9d;
-  transition: 0.5s;
-}
-.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover{
-  color: #ffffff;
-  transition: 0.5s;
-  background-color: #222222;
-}
+
 
 /********** CAROUSSEL ************/
 
-.carrousel{
+.carrousel {
   width: 100%;
   padding-top: 10px;
 }
 
-.carousel-indicators li{
+.carousel-indicators li {
   border: 1px solid #000000;
 }
 
-.carrousel img{
+.carrousel img {
   margin: auto;
 }
 
+
 /********** OOPS **************/
 
-.oops{
-  background-color: #797979;
+.oops {
+  background-color: white;
   margin: 10px 0px;
   padding: 10px;
 }
-.oops img{
-  width: 100%
+
+.oops img {
+  padding: 30px;
+  margin-left: 100px;
+  width: 80%
 }
 
-.accroche{
-  border: 1px solid #000000;
+
+
+
+
+.accroche {
+  width: 60%;
+  margin-left: -300px;
   text-align: center;
 }
-.accroche h2{
+
+.accroche h2 {
   font-size: 20px;
   font-weight: bold;
 }
 
-.accroche a{
+.accroche a {
   text-decoration: none;
   color: #000000;
 }
+
+
 /********** MOREOOPS ***********/
-.moreOops{
+
+.moreOops {
   background-color: #565656;
 }
-.moreOops img{
+
+.moreOops img {
   width: 100%;
 }
-.moreOops p{
+
+.moreOops p {
   margin-top: 50px;
   color: #000000;
   text-align: center;
 }
+
+
 /********** FOOTER *************/
-hr{
+
+hr {
   text-align: center;
   width: 75%;
   height: 5px;
@@ -177,7 +286,7 @@ hr{
   margin-bottom: 10px;
 }
 
-.footer{
+.footer {
   width: 100%;
   background-color: #222222;
   border: 1px solid #080808;
@@ -185,20 +294,19 @@ hr{
 
 .footer li {
   display: inline-block;
- /* border-left: 1px solid #101010; */
+  /* border-left: 1px solid #101010; */
   padding: 15px 15px;
   color: #9d9d9d;
 }
 
-
-.footer a{
+.footer a {
   padding: 10px 15px;
   text-decoration: none;
   transition: 0.5s;
   color: #9d9d9d;
 }
 
-.footer a:hover{
+.footer a:hover {
   transition: 0.5s;
   color: #ffffff;
 }
