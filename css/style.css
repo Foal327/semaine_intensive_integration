@@ -112,10 +112,12 @@ body {
 /************ HEADER ************/
 
 header {
-  background-color: white;
-  height: 100px;
+  background-color:#ecf0f1;
+  height: 70px;
   width: 100%;
+  
 }
+
 
 #imagelogo {
   width: 295%;
@@ -282,20 +284,41 @@ header {
   width: 100%;
   transition: all 0.5s ease;*/
 
+#testBordure{
+-webkit-border-top-right-radius: 50px;
+-moz-border-radius-topright: 50px;
+border-top-right-radius: 50px;
 
 }
+#testBordure2{
+-webkit-border-top-left-radius: 50px;
+-moz-border-radius-topleft: 50px;
+border-top-left-radius: 50px;
+}
+
+#testBordure3{
+-webkit-border-bottom-left-radius: 50px;
+-moz-border-radius-bottomleft: 50px;
+border-bottom-left-radius: 50px;
+}
+
+
 .moreOops p {
   margin-top: 50px;
   color: #000000;
   text-align: center;
   font-size: 50px;
 }
+
+.col-sm-12, .col-md-6{
+ margin-bottom: 2px;
+}
 .pelouse {
   height: 427px;
 }
 .testphoto {
   height: 396px;
-  padding-top: 15px;
+  
 }
 
 /********** FOOTER *************/
@@ -307,7 +330,7 @@ header {
 }
 
 #footer2 {
-  margin-top: 300px;
+  margin-top: 0px;
 }
 .footer li {
   display: inline-block;
@@ -329,9 +352,7 @@ header {
 
 /******** PRODUIT **********/
 
-firstSection{
-  background-color:#ecf0f1;
-}
+
 
 .containerCentrer {
   width: 80%;
@@ -352,6 +373,11 @@ firstSection{
 #hommetext p {
   font-size: 25px;
    width: 500px;
+  margin-left: 68px;
+  
+}
+#hommetext h2 {
+  font-size: 25px;
   
 }
 
@@ -361,11 +387,19 @@ firstSection{
   
 }
 #femmetext p {
+  margin-top: 100px;  
   font-size: 25px;
    width: 500px;
-  margin-right: 0px;
-  
+  margin-left: -586px;
 }
+
+#femmetext h2{
+  margin-top: 46px;  
+  font-size: 24px;
+  width: 500px;
+  margin-left: -569px;
+}
+
 h1 {
   text-align: center;
   font-size: 35px;
@@ -378,11 +412,23 @@ h2 {
 #femmeoops {
   width: 100%;
   border: 4px solid;
+  -webkit-border-radius: 50px;
+-webkit-border-bottom-left-radius: 0;
+-moz-border-radius: 50px;
+-moz-border-radius-bottomleft: 0;
+border-radius: 50px;
+border-bottom-left-radius: 0;
   margin-left: -113px;
 }
 #hommeoops {
   width: 100%;
   border: 4px solid ;
+ -webkit-border-radius: 50px;
+-webkit-border-bottom-right-radius: 0;
+-moz-border-radius: 50px;
+-moz-border-radius-bottomright: 0;
+border-radius: 50px;
+border-bottom-right-radius: 0;
   margin-top: 156px;
   margin-left: 565px;
 }
@@ -403,6 +449,10 @@ h2 {
   text-decoration: underline;
 }
 
+.containerCentrer{
+  background: ;
+}
+
 /********* 5 RAISONS ***********/
 .containerNos5Raisons,
 .raisons1,
@@ -417,6 +467,7 @@ h2 {
   font-weight: bold;
   font-size: 40px;
   text-align: right;
+  margin-right: 0px;
 }
 .containerNos5Raisons,
 .raisons5 {
@@ -425,10 +476,14 @@ h2 {
   text-align: justify;
 }
 .containerNos5Raisons {
-  width: 960px;
+  background-color: #309ED2;
+  width: 100%;
   margin: auto;
   margin-top: 25px;
+  padding-bottom: 150px;
 }
+
+
 .imageCentre {
   text-align: center;
   position: relative;
@@ -436,29 +491,30 @@ h2 {
 .raisons1 {
   position: absolute;
   margin-top: 75px;
+      margin-left: 488px;
   width: 400px;
 }
 .raisons2 {
   position: absolute;
   margin-top: 300px;
-  margin-left: 520px;
+  margin-left: 1043px;
   width: 500px;
 }
 .raisons3 {
   position: absolute;
   margin-top: 650px;
-  margin-left: -60px;
+      margin-left: 421px;
   width: 500px;
 }
 .raisons4 {
   position: absolute;
   margin-top: 899px;
-  margin-left: 520px;
+  margin-left: 1043px;
   width: 600px;
 }
 .raisons5 {
   position: absolute;
   text-align: center;
-  margin-left: 90px;
+  margin-left: 541px;
   width: 800px;
 }
