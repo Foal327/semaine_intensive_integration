@@ -387,7 +387,7 @@ h1 {
   text-align: center;
   font-size: 35px;
   color: #CF1715;
-  margin-left: 472px;
+  margin-left: 0%;
 }
 
 h2 {
@@ -1194,7 +1194,7 @@ nav.sidebar .navbar-nav .open .dropdown-menu{
   }
   #femmetext img {
     width: 145%;
-    margin-left: 0;
+    margin-left: -15%;
     margin-top: -5%;
   }
   .containerNos5Raisons {
