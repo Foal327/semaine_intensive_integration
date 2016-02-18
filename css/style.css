@@ -824,6 +824,178 @@ nav.sidebar, .main{
 }
 #pasDeMotEmplacement{
   font-size: 20px;
+    
+}
+
+
+/********************************
+
+            FORMULAIRE
+
+
+********************************/
+
+fieldset{
+  border-left: none;
+  border-right: none;
+  border-top: 3px solid #E3141E;
+  border-bottom: none;
+  text-align: center;
+}
+
+legend{
+  padding-left: 20px;
+  padding-right: 20px;
+  text-transform: uppercase;
+  text-align : center;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  font-size: 18px;
+}
+
+.formulaire{
+  border-left: 2px solid #E3141E;
+  border-right: 2px solid #E3141E;
+  border-top: 2px solid #E3141E;
+  border-bottom: 2px solid #E3141E;
+  border-radius: 10px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.champs{
+  font-size: 14px;
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+  color: #0F5FD2;
+  width: 50%;
+}
+
+input [type=text]{
+  padding: 5px;
+  width: 200px;
+}
+
+input [type=text]:focus{
+  outline: none;
+}
+
+#message{
+  width: 51%;
+  font-size: 14px;
+}
+
+#bouton{
+  font-size: 14px;
+  width: 50%;
+  padding: 8px 0;
+  color: #ffffff;
+  text-align: center;
+  background-color: #309ED2;
+  border-radius: 10px;
+}
+
+#bouton:hover{
+  transition: all 0.3s ease-in;
+  background-color:#0F5FD2;
+}
+
+
+
+/**********************************
+
+  
+
+            DEVIS
+
+
+***********************************/
+
+
+#field{
+  border-left: none;
+  border-right: none;
+  border-top: 3px solid #000000;
+  border-bottom: none;
+  text-align: center;
+}
+
+.legend2{
+  padding-left: 20px;
+  padding-right: 20px;
+  text-transform: uppercase;
+  text-align : center;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  font-size: 18px;
+}
+
+#gauche2{
+  margin-right: 40px;
+}
+
+#droite2{
+  width: 30%;
+}
+
+.formulaire2{
+  border-left: 2px solid #000000;
+  border-right: 2px solid #000000;
+  border-top: 2px solid #000000;
+  border-bottom: 2px solid #000000;
+  border-radius: 10px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.champs2{
+  font-size: 14px;
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+  color: #0F5FD2;
+  width: 50%;
+}
+
+input [type=text]{
+  margin:auto;
+  padding: 5px;
+  width: 200px;
+}
+
+input [type=text]:focus{
+  outline: none;
+}
+
+#message{
+  width: 51%;
+  font-size: 14px;
+}
+
+#bouton2{
+  font-size: 14px;
+  width: 50%;
+  padding: 8px 0;
+  color: #ffffff;
+  text-align: center;
+  background-color: #000000;
+  border-radius: 10px;
+}
+
+#bouton2:hover{
+  transition: all 0.1s ease-in;
+  background-color:#0F5FD2;
 }
 
 /* .....NavBar: Fully showing nav bar..... */
