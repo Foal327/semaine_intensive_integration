@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Oops Lab Perso</title>
+  <link href="../css/bootstrap.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+</head>
+
+<body class="bodyDeLaPagePerso">
+  <header class="col-sm-12 col-md-12 <col>-lg-12">
+    <div class="logo left">
+      <img id="imagelogo" src="../images/01_LOGO%20.png" alt="logo">
+    </div>
+    <div class="miniMenu right">
+      <ul>
+        <li><a href="#">COMMANDER</a></li>
+        <li><a href="#">CONNEXION</a></li>
+        <li><a href="#">SUIVEZ-NOUS</a></li>
+
+        <li>
+          <a class="lang" href="#"> <img src="../images/en_GB.png" /> </a>
+        </li>
+        <li>
+          <a class="lang" href="#"> <img src="../images/fr_FR.png" /></a>
+        </li>
+      </ul>
+      <div class="clearBoth"></div>
+    </div>
+    <div class="clearBoth"></div>
+  </header>
+  <div class="clearBoth"></div>
+  <div class="menu">
+    <div>
+      <input name="price" placeholder="€" />
+      <span>Prix :</span>
+      <input type="number" name="quantity" placeholder="Quantité" />
+    </div>
+  </div>
+  <div class="clearBoth"></div>
+  <nav class="navbar navbar-inverse sidebar" role="navigation">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-sidebar-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-sidebar-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Couleur <span class="caret"></span><span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-tint"></span></a>
+            <ul class="dropdown-menu forAnimate" role="menu">
+              <li>
+                <div id="caseCouleur1"></div>
+              </li>
+              <li class="divider"></li>
+              <li>
+                <div id="caseCouleur2"></div>
+              </li>
+              <li class="divider"></li>
+              <li>
+                <div id="caseCouleur3"></div>
+              </li>
+              <li class="divider"></li>
+              <li>
+                <div id="caseCouleur4"></div>
+              </li>
+              <li class="divider"></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Logo <span class="caret"></span><span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-registration-mark"></span></a>
+            <ul class="dropdown-menu forAnimate" role="menu">
+              <li>
+                <div id="logoEmplacement1"> KeyGarde</div>
+              </li>
+              <li class="divider"></li>
+              <li>
+                <div id="logoEmplacement2"> BNP Paribas</div>
+              </li>
+              <li class="divider"></li>
+              <li>
+                <div id="logoEmplacement3"> Hetic</div>
+              </li>
+              <li class="divider"></li>
+              <li>
+                <div id="pasDeLogoEmplacement">Aucun Logo</div>
+              </li>
+              <li class="divider"></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Un Petit Mot <span class="caret"></span><span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-font"></span></a>
+            <ul class="dropdown-menu forAnimate" role="menu">
+              <li>
+                <div id="motEmplacement1"> En haut à Gauche</div>
+              </li>
+              <li class="divider"></li>
+              <li>
+                <div id="motEmplacement2"> En bas à Gauche</div>
+              </li>
+              <li class="divider"></li>
+              <li>
+                <div id="motEmplacement3"> En haut à Droite </div>
+              </li>
+              <li class="divider"></li>
+              <li>
+                <div id="pasDeMotEmplacement"> Aucun Mot</div>
+              </li>
+              <li class="divider"></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="containerPerso">
+    <div class="imageOopsPerso">
+      <img id="couleurOopsPerso" src="../images/prod2.png" alt="">
+      <img id="logoOopsPerso" src=" " alt="">
+      <!--  <img id="motOopsPerso" src=" " alt=""> -->
+    </div>
+  </div>
+
+  <footer class="col-sm-12 col-md-12 col-lg-12">
+    <div class="footer">
+      <ul>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">CGV</a></li>
+        <li><a href="#">Mentions</a></li>
+        <li><a href="#">F.A.Q</a></li>
+        <li><a href="#">Oops Remercie</a></li>
+        <li class="right">©2016 MyOopsPro - Tous droits réservés</li>
+      </ul>
+      <div class="clearBoth"></div>
+    </div>
+  </footer>
+  <script src="../js/bootstrap.js"></script>
+  <script src="../js/sideBar.js"></script>
+  <script src="../js/oopsColorChange.js"></script>
+</body>
+
+</html>

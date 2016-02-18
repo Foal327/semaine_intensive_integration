@@ -118,7 +118,7 @@ header {
 }
 
 #imagelogo {
-  width: 295%;
+      width: 234%;
   margin-left: -3 0px;
 }
 
@@ -177,8 +177,11 @@ header {
 .navbar-default .navbar-nav > li > a {
   color: #9d9d9d;
   transition: 0.5s;
-  margin-left: 305px;
-  padding-left: 65px;
+  margin-left: 200px;
+}
+
+.nav > li > a{
+    padding: 10px 10px;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
@@ -309,7 +312,9 @@ header {
 
 .col-sm-12,
 .col-md-6 {
-  margin-bottom: -12px;
+      margin-bottom: -12px;
+  
+    
 }
 
 .pelouse {
@@ -327,10 +332,11 @@ header {
   width: 100%;
   background-color: #222222;
   border: 1px solid #080808;
+  margin-top: 100px;
 }
 
 #footer2 {
-  margin-top: 0px;
+  margin-top: 300px;
 }
 
 .footer li {
@@ -361,6 +367,11 @@ header {
   margin-top: 10px;
 }
 
+.rightContent h2 {
+  text-align: left;
+  margin-left: 94px;
+}
+
 .rightContent p {
   text-align: justify;
   padding: 20px;
@@ -368,14 +379,15 @@ header {
 }
 
 #hommetext img {
-  width: 194%;
-  margin-left: -178px;
+  width: 159%;
+  margin-left: -97px;
+  margin-top: -25px;
 }
 
 #femmetext img {
-  width: 180%;
-  margin-left: -632px;
-  margin-top: -84px;
+  width: 138%;
+  margin-left: -1032px;
+  margin-top: -48px;
 }
 
 h1 {
@@ -390,14 +402,18 @@ h2 {
 }
 
 #femmeoops {
-  width: 80%;
-  margin-left: -113px;
+  width: 62%;
+  margin-left: -315px;
+  margin-top: 24px;
+  
 }
 
+
+
 #hommeoops {
-  width: 80%;
-  margin-top: -31px;
-  margin-left: 606px;
+  width: 62%;
+  margin-top: -22px;
+  margin-left: 767px;
 }
 
 #oopsie {
@@ -405,17 +421,14 @@ h2 {
   margin-left: -164px;
 }
 
-#backgroundleger {
-  background-color: red;
+hr {
   width: 100%;
+  background-color: black;
+  height: 3px;
 }
 
 
 /******** EXPLICATION **********/
-
-.rightContent h2 {
-  margin-left: 90px;
-}
 
 .rightContent p {
   margin-left: 90px;
@@ -433,11 +446,38 @@ h2 {
 
 /********* 5 RAISONS ***********/
 
+
 #titre5raisons {
   color: #309ED2;
-  margin-left: 17px;
+  margin-left: 13px;
+  text-transform: uppercase;
+  font-size: 44px;
 }
 
+#tech {
+  width: 20%;
+}
+
+#team {
+  width: 20%;
+}
+
+#trust {
+  width: 20%;
+}
+
+#smile {
+  width: 12%;
+  margin-left: 55px;
+}
+
+#fleche {
+  margin-top: -18px;
+  margin-left: 16px;
+}
+
+
+}
 .containerNos5Raisons,
 .raisons1,
 .raisons3 {
@@ -445,7 +485,6 @@ h2 {
   font-size: 40px;
   text-align: left;
 }
-
 .containerNos5Raisons,
 .raisons2,
 .raisons4 {
@@ -454,58 +493,500 @@ h2 {
   text-align: right;
   margin-right: 0px;
 }
-
 .containerNos5Raisons,
 .raisons5 {
   font-weight: bold;
   font-size: 40px;
   text-align: justify;
 }
-
 .containerNos5Raisons {
   background-color: #309ED2;
   width: 100%;
   margin: auto;
   margin-top: 25px;
   padding-bottom: 150px;
+  border-top: 5px solid;
 }
-
 .imageCentre {
   text-align: center;
   position: relative;
 }
-
 .raisons1 {
   position: absolute;
-  margin-top: 75px;
-  margin-left: 309px;
-  width: 400px;
+  margin-top: 32px;
+  margin-left: 229px;
+  width: 447px;
 }
-
 .raisons2 {
   position: absolute;
-  margin-top: 300px;
-  margin-left: 770px;
-  width: 500px;
+  margin-top: 279px;
+  margin-left: 758px;
+  width: 532px;
 }
-
 .raisons3 {
   position: absolute;
-  margin-top: 650px;
-  margin-left: 224px;
-  width: 500px;
+  margin-top: 613px;
+  margin-left: 242px;
+  width: 378px;
 }
-
 .raisons4 {
   position: absolute;
-  margin-top: 899px;
-  margin-left: 721px;
-  width: 600px;
+  margin-top: 877px;
+  margin-left: 731px;
+  width: 508px;
 }
-
 .raisons5 {
   position: absolute;
   text-align: center;
   margin-left: 320px;
   width: 800px;
+}
+
+/**********************************
+
+
+
+
+              test button
+
+
+
+***************************************/
+.button2 {
+  width: 900px;
+  margin-left: 274px;
+}
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Pacifico'), url('http://themes.googleusercontent.com/font?kit=fKnfV28XkldRW297cFLeqfesZW2xOQ-xsNqO47m55DA') format('truetype');
+}
+body {
+  text-align: center;
+}
+#button {
+  display: inline-block;
+  margin-top: 20%;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 8px 0 #2b8ebd, 0 15px 20px rgba(0, 0, 0, .35);
+  -moz-box-shadow: 0 8px 0 #2b8ebd, 0 15px 20px rgba(0, 0, 0, .35);
+  box-shadow: 0 8px 0 #2b8ebd, 0 15px 20px rgba(0, 0, 0, .35);
+  -webkit-transition: -webkit-box-shadow .1s ease-in-out;
+  -moz-transition: -moz-box-shadow .1s ease-in-out;
+  -o-transition: -o-box-shadow .1s ease-in-out;
+  transition: box-shadow .1s ease-in-out;
+  font-size: 50px;
+  color: #fff;
+}
+#button span {
+  margin-top: 1px;
+  display: inline-block;
+  padding: 20px 30px;
+  background-color: #309ED2;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  -webkit-box-shadow: inset 0 -1px 1px rgba(255, 255, 255, .15);
+  -moz-box-shadow: inset 0 -1px 1px rgba(255, 255, 255, .15);
+  box-shadow: inset 0 -1px 1px rgba(255, 255, 255, .15);
+  font-family: 'Pacifico', Arial, sans-serif;
+  line-height: 1;
+  text-shadow: 0 -1px 1px rgba(175, 49, 95, .7);
+  -webkit-transition: background-color .2s ease-in-out, -webkit-transform .1s ease-in-out;
+  -moz-transition: background-color .2s ease-in-out, -moz-transform .1s ease-in-out;
+  -o-transition: background-color .2s ease-in-out, -o-transform .1s ease-in-out;
+  transition: background-color .2s ease-in-out, transform .1s ease-in-out;
+}
+#button:hover span {
+  background-color: #2b8ebd;
+  text-shadow: 0 -1px 1px rgba(175, 49, 95, .9), 0 0 5px rgba(255, 255, 255, .8);
+}
+#button:active,
+#button:focus {
+  -webkit-box-shadow: 0 8px 0 #2b8ebd, 0 12px 10px rgba(0, 0, 0, .3);
+  -moz-box-shadow: 0 8px 0 #2b8ebd, 0 12px 10px rgba(0, 0, 0, .3);
+  box-shadow: 0 8px 0 #2b8ebd, 0 12px 10px rgba(0, 0, 0, .3);
+}
+#button:active span {
+  -webkit-transform: translate(0, 4px);
+  -moz-transform: translate(0, 4px);
+  -o-transform: translate(0, 4px);
+  transform: translate(0, 4px);
+}
+
+/********** PERSO ********/
+
+.bodyDeLaPagePerso{
+  background-image: url(../images/fond.png);
+  background-repeat: repeat;
+}
+.menu{
+      width: 100%;
+  padding-bottom:5px;
+  float:right;
+  background-color: #EEEEEE;
+  border-bottom: 1px solid #000000;
+  
+  
+}
+
+.menu input{
+  float:right;
+  width:80px;
+      margin: 13px 7px;
+
+}
+
+.menu span{
+  float:right;
+  margin-top:13px;
+}
+
+.containerPerso{
+  width: 100%;
+  height: auto;
+}
+
+.imageOopsPerso{
+  width: 50%;
+  margin: auto;
+}
+
+.imageOopsPerso img{
+  margin: auto;
+  margin-top: 20px;
+  margin-left: 15%;
+} 
+
+.imageOopsPerso img:nth-child(2){
+  margin: auto;
+  margin-top: 20px;
+  margin-left: 30%;
+  padding-top: 15px;
+} 
+.imageOopsPerso img:nth-child(3){
+  margin: auto;
+  margin-top: 20px;
+  margin-left: 30%;
+} 
+
+/******** PERSO SIDE BAR *********/
+
+body,html{
+  height: 100%;
+}
+
+/* remove outer padding */
+.main .row{
+  padding: 0px;
+  margin: 0px;
+}
+
+/*Remove rounded coners*/
+
+nav.sidebar.navbar {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border: 4px solid black;
+      border-radius: 0px;
+  background-color: white;
+  
+}
+
+nav.sidebar, .main{
+  -webkit-transition: margin 200ms ease-out;
+  -moz-transition: margin 200ms ease-out;
+  -o-transition: margin 200ms ease-out;
+  transition: margin 200ms ease-out;
+}
+
+/* Add gap to nav and right windows.*/
+.main{
+  padding: 10px 10px 10px 10px;
+}
+
+/* .....NavBar: Icon only with coloring/layout.....*/
+
+/*small/medium side display*/
+@media (min-width: 768px) {
+
+  /*Allow main to be next to Nav*/
+  .main{
+    position: absolute;
+    width: calc(100% - 40px); /*keeps 100% minus nav size*/
+    margin-left: 40px;
+    float: right;
+  }
+
+  /*lets nav bar to be showed on mouseover*/
+  nav.sidebar:hover + .main{
+    margin-left: 200px;
+  }
+
+  /*Center Brand*/
+  nav.sidebar.navbar.sidebar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: 0px;
+  }
+  /*Center Brand*/
+  nav.sidebar .navbar-brand, nav.sidebar .navbar-header{
+    text-align: center;
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  /*Center Icons*/
+  nav.sidebar a{
+    padding-right: 13px;
+  }
+
+  /*adds border top to first nav box */
+  nav.sidebar .navbar-nav > li:first-child{
+    border-top: 1px #000000 solid;
+  }
+
+  /*adds border to bottom nav boxes*/
+  nav.sidebar .navbar-nav > li{
+    border-bottom: 1px #000000 solid;
+  }
+
+  /* Colors/style dropdown box*/
+  nav.sidebar .navbar-nav .open .dropdown-menu {
+    position: static;
+    float: none;
+    width: auto;
+    margin-top: 0;
+    background-color: transparent;
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+  /*allows nav box to use 100% width*/
+  nav.sidebar .navbar-collapse, nav.sidebar .container-fluid{
+    padding: 0 0px 0 0px;
+  }
+
+  /*colors dropdown box text */
+  .navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+    color: #777;
+  }
+
+  /*gives sidebar width/height*/
+  nav.sidebar{
+    width: 200px;
+    height: 100%;
+    margin-left: -160px;
+    float: left;
+    z-index: 8000;
+    margin-bottom: 0px;
+  }
+
+  /*give sidebar 100% width;*/
+  nav.sidebar li {
+    width: 100%;
+  }
+
+  /* Move nav to full on mouse over*/
+  nav.sidebar:hover{
+    margin-left: 10px;
+  }
+  /*for hiden things when navbar hidden*/
+  .forAnimate{
+    opacity: 0;
+  }
+}
+
+#logoEmplacement1{
+  font-size: 20px;
+}
+#logoEmplacement2{
+  font-size: 20px;
+}
+#logoEmplacement3{
+  font-size: 20px;
+}
+#pasDeLogoEmplacement{
+  font-size: 20px;
+}
+
+#motEmplacement1{
+  font-size: 20px;
+}
+#motEmplacement2{
+  font-size: 20px;
+}
+#motEmplacement3{
+  font-size: 20px;
+}
+#pasDeMotEmplacement{
+  font-size: 20px;
+}
+
+/* .....NavBar: Fully showing nav bar..... */
+
+@media (min-width: 1330px) {
+
+  /*Allow main to be next to Nav*/
+  .main{
+    width: calc(100% - 200px); /*keeps 100% minus nav size*/
+    margin-left: 200px;
+  }
+
+  /*Show all nav*/
+  nav.sidebar{
+    margin-left: 0px;
+    float: left;
+  }
+  /*Show hidden items on nav*/
+  nav.sidebar .forAnimate{
+    opacity: 1;
+  }
+}
+
+nav.sidebar .navbar-nav .open .dropdown-menu>li>a:hover, nav.sidebar .navbar-nav .open .dropdown-menu>li>a:focus {
+  color: #000;
+  background-color: transparent;
+}
+
+nav:hover .forAnimate{
+  opacity: 1;
+}
+section{
+  padding-left: 15px;
+}
+
+nav.sidebar .navbar-nav > li:first-child{
+  border-top: none;
+
+}
+
+.navbar-inverse{
+  background-color: #fafafa;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus{
+  color: #000000;
+}
+
+.dropdown-menu .divider{
+  background-color: #000000;
+  margin: 0;
+}
+
+#caseCouleur1{
+  width: 100%;
+  height: 50px;
+  background-color: #d1d1d1;
+}
+
+#caseCouleur2{
+  width: 100%;
+  height: 50px;
+  background-color: #f9f73e;
+}
+
+#caseCouleur3{
+  width: 100%;
+  height: 50px;
+  background-color: #b73ac0;
+}
+
+
+#caseCouleur4{
+  width: 100%;
+  height: 50px;
+  background-color: #f87c7c;
+}
+
+#caseCouleur1 p, #caseCouleur2 p, #caseCouleur3 p, #caseCouleur4 p{
+  text-align: center;
+  padding-top: 17px;
+  color: #000000;
+  font-weight: bold;
+}
+
+
+#couleurOopsPerso{
+  display: block;
+  z-index: 2;
+  position: absolute;
+}
+
+#logoOopsPerso{
+  display: block;
+  z-index: 4;
+  position: relative;
+}
+
+#motOopsPerso{
+  display: block;
+  z-index: 4;
+  position: relative;
+}
+
+nav.sidebar .navbar-nav .open .dropdown-menu{
+  padding: 0 0;
+}
+
+.navbar-toggle{
+  background-color: #000;
+}
+/******* MEDIAQUERYS ********/
+
+@media (min-width: 1400px)/* Grands Écrand d'ordi */{
+
+
+}
+
+
+@media (min-width: 1024px) and (max-width: 1400px)/* Ordi bureaux et portables*/{
+
+
+}
+
+
+@media (min-width: 480px) and (max-width: 1024px)/*tablettes*/{
+  #couleurOopsPerso{
+    display: block;
+    width: 250px;
+    height: auto;
+    padding: 50px 0px;
+  }
+  #logoOopsPerso{
+    display: block;
+    width: 250px;
+    height: auto;
+    padding: 70px 0px;
+  }
+  #motOopsPerso{
+    display: block;
+    width: 250px;
+    height: auto;
+  }
+}
+
+
+@media (min-width: 200px) and (max-width: 480px)/*phone*/{
+  #couleurOopsPerso{
+    display: block;
+    width: 100px;
+    height: auto;
+    padding: 100px 0px;
+  }
+   #logoOopsPerso{
+    display: block;
+    width: 100px;
+    height: auto;
+    padding: 120px 0px;
+  }
+   #motOopsPerso{
+    display: block;
+    width: 100px;
+    height: auto;
+    padding: 100px 0px;
+  }
 }
