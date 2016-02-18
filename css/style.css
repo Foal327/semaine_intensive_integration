@@ -368,14 +368,14 @@ header {
 }
 
 #hommetext img {
-  width: 180%;
-  margin-left: -216px;
+  width: 194%;
+  margin-left: -178px;
 }
 
 #femmetext img {
   width: 180%;
   margin-left: -632px;
-  margin-top: 22px;
+  margin-top: -84px;
 }
 
 h1 {
@@ -390,19 +390,24 @@ h2 {
 }
 
 #femmeoops {
-  width: 100%;
+  width: 80%;
   margin-left: -113px;
 }
 
 #hommeoops {
-  width: 100%;
-  margin-top: 62px;
+  width: 80%;
+  margin-top: -31px;
   margin-left: 606px;
 }
 
 #oopsie {
   width: 130%;
   margin-left: -164px;
+}
+
+#backgroundleger {
+  background-color: red;
+  width: 100%;
 }
 
 
@@ -427,6 +432,11 @@ h2 {
 
 
 /********* 5 RAISONS ***********/
+
+#titre5raisons {
+  color: #309ED2;
+  margin-left: 17px;
+}
 
 .containerNos5Raisons,
 .raisons1,
