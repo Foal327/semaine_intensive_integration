@@ -32,7 +32,7 @@ function quantiteMoins(){
   }
   
   arrondi = prix * 10;
-  prixArrondi = arrondi/10;
+  prixArrondi = arrondi/10; 
   document.getElementById("stock").innerHTML = stock;
   document.getElementById("quantite").innerHTML = quantite;
   document.getElementById("prix").innerHTML = prixArrondi;

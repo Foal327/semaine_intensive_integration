@@ -113,7 +113,6 @@ body {
 
 header {
   background-color: #ecf0f1;
-  height: 70px;
   width: 100%;
 }
 
@@ -331,11 +330,11 @@ transition: all 0.5s ease;*/
   width: 100%;
   background-color: #222222;
   border: 1px solid #080808;
-  margin-top: 100px;
+  margin-top: 20%;
 }
 
 #footer2 {
-  margin-top: 300px;
+  margin-top: 2%;
 }
 
 .footer li {
@@ -367,26 +366,21 @@ transition: all 0.5s ease;*/
 }
 
 .rightContent h2 {
-  text-align: left;
-  margin-left: 94px;
+  float: left;
+  margin-left: 20%;
 }
 
-.rightContent p {
-  text-align: justify;
-  padding: 20px;
-  width: 500px;
-}
 
 #hommetext img {
-  width: 159%;
-  margin-left: -97px;
+  width: 160%;
+  margin-left: -25%;
   margin-top: -25px;
 }
 
 #femmetext img {
-  width: 138%;
-  margin-left: -1032px;
-  margin-top: -48px;
+  width: 145%;
+  margin-left: -210%;
+  margin-top: -10%;
 }
 
 h1 {
@@ -402,23 +396,22 @@ h2 {
 
 #femmeoops {
   width: 62%;
-  margin-left: -315px;
   margin-top: 24px;
 
 }
 
+#oopsie{
+  width: 100%;
+  float: left
+}
 
 
 #hommeoops {
   width: 62%;
-  margin-top: -22px;
-  margin-left: 767px;
+  margin-left: 100% ;
 }
 
-#oopsie {
-  width: 130%;
-  margin-left: -164px;
-}
+
 
 hr {
   width: 100%;
@@ -430,7 +423,10 @@ hr {
 /******** EXPLICATION **********/
 
 .rightContent p {
-  margin-left: 90px;
+  text-align: justify;
+  padding: 10%;
+  width: 500px;
+  float: left;
 }
 
 .containerProduitExplications h2 {
@@ -496,7 +492,6 @@ hr {
 .raisons5 {
   font-weight: bold;
   font-size: 40px;
-  text-align: justify;
 }
 .containerNos5Raisons {
   background-color: #309ED2;
@@ -512,33 +507,33 @@ hr {
 }
 .raisons1 {
   position: absolute;
-  margin-top: 32px;
-  margin-left: 229px;
-  width: 447px;
+  margin-top: 2%;
+  margin-left: 15%;
+  width: 31%;
 }
 .raisons2 {
   position: absolute;
-  margin-top: 279px;
-  margin-left: 758px;
-  width: 532px;
+  margin-top: 18%;
+  margin-left: 55%;
+  width: 35%;
 }
 .raisons3 {
   position: absolute;
-  margin-top: 613px;
-  margin-left: 242px;
-  width: 378px;
+  margin-top: 40%;
+  margin-left: 20%;
+  width: 25%;
 }
 .raisons4 {
   position: absolute;
-  margin-top: 877px;
-  margin-left: 731px;
-  width: 508px;
+  margin-top: 55%;
+  margin-left: 50%;
+  width: 34%;  
 }
 .raisons5 {
   position: absolute;
   text-align: center;
-  margin-left: 320px;
-  width: 800px;
+  margin-left: 25%;
+  width: 50%;
 }
 
 /**********************************
@@ -553,7 +548,7 @@ test button
 ***************************************/
 .button2 {
   width: 900px;
-  margin-left: 274px;
+  margin-left: 22%;
 }
 @font-face {
   font-family: 'Pacifico';
@@ -581,7 +576,6 @@ body {
   color: #fff;
 }
 #button span {
-  margin-top: 1px;
   display: inline-block;
   padding: 20px 30px;
   background-color: #309ED2;
@@ -851,6 +845,7 @@ fieldset{
   border-top: 3px solid #E3141E;
   border-bottom: none;
   text-align: center;
+  padding-top: 20px;
 }
 
 legend{
@@ -1176,8 +1171,121 @@ nav.sidebar .navbar-nav .open .dropdown-menu{
     border-radius: 50px;
     height: 540px
   }
-}
 
+  #rightContentContainer{
+    margin: auto;
+    width: 100%;
+  }
+
+  .rightContent p {
+    text-align: justify;
+    padding: 20px;
+    width: 100%;
+    float: left;
+  }
+  #hommetext img {
+    width: 120%;
+    margin-left: -20%;
+    margin-top: -25px;
+  }
+  #hommeoops {
+    width: 62%;
+    margin-left: 0;
+  }
+  #femmetext img {
+    width: 145%;
+    margin-left: 0;
+    margin-top: -5%;
+  }
+  .containerNos5Raisons {
+    background-color: #309ED2;
+    width: 100%;
+    margin: auto;
+    margin-top: 25px;
+    padding-bottom: 150px;
+    border-top: 5px solid;
+  }
+  .raisons1 {
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 15%;
+    width: 25%;
+  }
+  .raisons2 {
+    position: absolute;
+    margin-top: 35%;
+    margin-left: 55%;
+    width: 35%;
+  }
+  .raisons3 {
+    position: absolute;
+    margin-top: 70%;
+    margin-left: 15%;
+    width: 25%;
+  }
+  .raisons4 {
+    position: absolute;
+    margin-top: 110%;
+    margin-left: 55%;
+    width: 33%;  
+  }
+  .raisons5 {
+    position: absolute;
+    text-align: center;
+    margin-left: 25%;
+    width: 50%;
+  }
+  .containerNos5Raisons,
+  .raisons1,
+  .raisons3 {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+  }
+  .containerNos5Raisons,
+  .raisons2,
+  .raisons4 {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: right;
+    margin-right: 0px;
+  }
+  .containerNos5Raisons,
+  .raisons5 {
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  #footer2{
+    margin-top:0%
+  }
+  .button2 {
+    width: 100%;
+    margin-left: 0%;
+  }
+  #button {
+    display: inline-block;
+    margin-top: 10%;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: 0 8px 0 #2b8ebd, 0 15px 20px rgba(0, 0, 0, .35);
+    -moz-box-shadow: 0 8px 0 #2b8ebd, 0 15px 20px rgba(0, 0, 0, .35);
+    box-shadow: 0 8px 0 #2b8ebd, 0 15px 20px rgba(0, 0, 0, .35);
+    -webkit-transition: -webkit-box-shadow .1s ease-in-out;
+    -moz-transition: -moz-box-shadow .1s ease-in-out;
+    -o-transition: -o-box-shadow .1s ease-in-out;
+    transition: box-shadow .1s ease-in-out;
+    font-size: 50px;
+    color: #fff;
+  }
+  .footer {
+    width: 100%;
+    background-color: #222222;
+    border: 1px solid #080808;
+    margin-top: 40%;
+  }
+}
 
 @media (min-width: 200px) and (max-width: 480px)/*phone*/{
   #couleurOopsPerso{
@@ -1223,5 +1331,118 @@ nav.sidebar .navbar-nav .open .dropdown-menu{
   }
   .pelouse{
     border-radius: 50px;
+  }
+  .rightContent p {
+    text-align: justify;
+    padding: 20px;
+    width: 100%;
+    float: left;
+  }
+
+  #hommetext img {
+    width: 120%;
+    margin-left: -20%;
+    margin-top: -10px;
+  }
+  #hommeoops {
+    width: 62%;
+    margin-left: 0;
+  }
+  #femmetext img {
+    width: 145%;
+    margin-left: 0;
+    margin-top: -5%;
+  }
+  .containerNos5Raisons {
+    background-color: #309ED2;
+    width: 100%;
+    margin: auto;
+    margin-top: 25px;
+    padding-bottom: 70px;
+    border-top: 5px solid;
+  }
+  .raisons1 {
+    position: absolute;
+    margin-top: 25%;
+    margin-left: 0%;
+    width: 40%;
+  }
+  .raisons2 {
+    position: absolute;
+    margin-top: 110%;
+    margin-left: 57%;
+    width: 35%;
+  }
+  .raisons3 {
+    position: absolute;
+    margin-top: 200%;
+    margin-left: 8%;
+    width: 25%;
+  }
+  .raisons4 {
+    position: absolute;
+    margin-top: 305%;
+    margin-left: 55%;
+    width: 34%;  
+  }
+  .raisons5 {
+    position: absolute;
+    text-align: center;
+    margin-left: 25%;
+    width: 50%;
+  }
+  .containerNos5Raisons,
+  .raisons1,
+  .raisons3 {
+    font-weight: bold;
+    font-size: 10px;
+    text-align: left;
+  }
+  .containerNos5Raisons,
+  .raisons2,
+  .raisons4 {
+    font-weight: bold;
+    font-size: 10px;
+    text-align: right;
+    margin-right: 0px;
+  }
+  .containerNos5Raisons,
+  .raisons5 {
+    font-weight: bold;
+    font-size: 10px;
+  }
+  #footer2{
+    margin-top:0%
+  }
+  .button2 {
+    width: 100%;
+    margin-left: 0%;
+  }
+  #button {
+    display: inline-block;
+    margin-top: 5%;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: 0 8px 0 #2b8ebd, 0 15px 20px rgba(0, 0, 0, .35);
+    -moz-box-shadow: 0 8px 0 #2b8ebd, 0 15px 20px rgba(0, 0, 0, .35);
+    box-shadow: 0 8px 0 #2b8ebd, 0 15px 20px rgba(0, 0, 0, .35);
+    -webkit-transition: -webkit-box-shadow .1s ease-in-out;
+    -moz-transition: -moz-box-shadow .1s ease-in-out;
+    -o-transition: -o-box-shadow .1s ease-in-out;
+    transition: box-shadow .1s ease-in-out;
+    font-size: 20px;
+    color: #fff;
+  }
+  .menu span {
+    float: right;
+    margin-top: 13px;
+    margin-right: 12px;
+  }
+  .footer {
+    width: 100%;
+    background-color: #222222;
+    border: 1px solid #080808;
+    margin-top: -50%;
   }
 }
