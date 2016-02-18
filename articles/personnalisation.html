@@ -1,47 +1,56 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Oops Lab Perso</title>
-  <link href="../css/bootstrap.css" rel="stylesheet">
-  <link rel="stylesheet" href="../css/style.css">
-  <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-</head>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Oops Lab Perso</title>
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  </head>
 
-<body class="bodyDeLaPagePerso">
-  <header class="col-sm-12 col-md-12 <col>-lg-12">
-    <div class="logo left">
-      <img id="imagelogo" src="../images/01_LOGO%20.png" alt="logo">
-    </div>
-    <div class="miniMenu right">
-      <ul>
-        <li><a href="#">COMMANDER</a></li>
-        <li><a href="#">CONNEXION</a></li>
-        <li><a href="#">SUIVEZ-NOUS</a></li>
+  <body class="bodyDeLaPagePerso">
+    <header class="col-sm-12 col-md-12 <col>-lg-12">
+      <div class="logo left">
+        <a href="../index.html"><img id="imagelogo" src="../images/01_LOGO%20.png" alt="logo"></a>
+      </div>
+      <div class="miniMenu right">
+        <ul>
+          <li><a href="#">COMMANDER</a></li>
+          <li><a href="#">CONNEXION</a></li>
+          <li><a href="#">SUIVEZ-NOUS</a></li>
 
-        <li>
-          <a class="lang" href="#"> <img src="../images/en_GB.png" /> </a>
-        </li>
-        <li>
-          <a class="lang" href="#"> <img src="../images/fr_FR.png" /></a>
-        </li>
-      </ul>
+          <li>
+            <a class="lang" href="#"> <img src="../images/en_GB.png" /> </a>
+          </li>
+          <li>
+            <a class="lang" href="#"> <img src="../images/fr_FR.png" /></a>
+          </li>
+        </ul>
+        <div class="clearBoth"></div>
+      </div>
       <div class="clearBoth"></div>
-    </div>
+    </header>
     <div class="clearBoth"></div>
-  </header>
-  <div class="clearBoth"></div>
-  <div class="menu">
-    <div>
-      <input name="price" placeholder="€" />
-      <span>Prix :</span>
-      <input type="number" name="quantity" placeholder="Quantité" />
+    <div class="menu">
+      <div>
+        <span>€</span>
+        <span id="prix">00</span>
+        <span>Prix :</span>
+        <span class="glyphicon glyphicon-menu-down" onclick="quantiteMoins()"></span>
+        <span class="glyphicon glyphicon-menu-up" onclick="quantitePlus()"></span> 
+        <span id="quantite">00</span> 
+        <span>Quantité :</span>
+        <span id="stock">5136</span>
+        <span>En stock : </span> 
+        <form action="devis.html" method="get">
+          <input type="submit" value="Validé"></input>
+        </form>
     </div>
-  </div>
+    </div>
   <div class="clearBoth"></div>
   <nav class="navbar navbar-inverse sidebar" role="navigation">
     <div class="container-fluid">
@@ -103,7 +112,7 @@
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Un Petit Mot <span class="caret"></span><span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-font"></span></a>
             <ul class="dropdown-menu forAnimate" role="menu">
               <li>
-                <div id="motEmplacement1"> En haut à Gauche</div>
+                <div id="motEmplacement1"> En bas à droite</div>
               </li>
               <li class="divider"></li>
               <li>
@@ -111,7 +120,7 @@
               </li>
               <li class="divider"></li>
               <li>
-                <div id="motEmplacement3"> En haut à Droite </div>
+                <div id="motEmplacement3"> En haut, au milieu </div>
               </li>
               <li class="divider"></li>
               <li>
@@ -129,7 +138,7 @@
     <div class="imageOopsPerso">
       <img id="couleurOopsPerso" src="../images/prod2.png" alt="">
       <img id="logoOopsPerso" src=" " alt="">
-      <!--  <img id="motOopsPerso" src=" " alt=""> -->
+      <img id="motOopsPerso" src=" " alt=""> 
     </div>
   </div>
 
@@ -149,6 +158,7 @@
   <script src="../js/bootstrap.js"></script>
   <script src="../js/sideBar.js"></script>
   <script src="../js/oopsColorChange.js"></script>
-</body>
+  <script src="../js/stock.js"></script>
+  </body>
 
 </html>
