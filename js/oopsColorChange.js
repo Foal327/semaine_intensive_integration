@@ -30,7 +30,7 @@ $("#logoEmplacement3").click(function(){
 });
 
 $("#pasDeLogoEmplacement").click(function(){
-  $("#logoOopsPerso").attr("src", " ")
+  $("#logoOopsPerso").attr("src", "../images/vide.png")
 });
 
 /********** MOT **********/
@@ -48,5 +48,5 @@ $("#motEmplacement3").click(function(){
 });
 
 $("#pasDeMotEmplacement").click(function(){
-  $("#motOopsPerso").attr("src", " ")
+  $("#motOopsPerso").attr("src", "../images/vide.png" )
 });

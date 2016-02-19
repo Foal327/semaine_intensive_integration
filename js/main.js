@@ -2,14 +2,14 @@ var raisons1_3Reveal = {
   delay    : 200,
   distance : '90px',
   easing   : 'ease-in-out',
-  origin   : "left",
+  origin   : "bottom",
   scale    : 1.1
 };
 var raisons2_4Reveal = {
   delay    : 200,
   distance : '90px',
   easing   : 'ease-in-out',
-  origin   : "right",
+  origin   : "bottom",
   scale    : 1.1
 };
 var raisons5Reveal = {
